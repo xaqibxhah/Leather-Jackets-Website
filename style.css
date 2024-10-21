@@ -1,0 +1,27 @@
+header{
+    background: url(images/main.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 1000px;
+}
+@media screen and (max-width:650px) {
+    header{
+        min-height: 500px;
+    }
+}
+#about-img{
+    /* width: 45%; */
+}
+.section{
+    padding-bottom: 4vw;
+    padding-top: 4vw;
+}
+.tabs .indicator{
+    background-color: #000;
+}
+.tabs .indicator{
+    background-color: #000;
+}
+.tabs .tab a:hover, .tabs .tab a:focus .active {
+    background-color: transparent;
+}
